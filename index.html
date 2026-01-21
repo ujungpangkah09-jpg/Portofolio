@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of a Mobile & Web Developer specializing in Android (XML, Compose, KMP), Laravel, and CodeIgniter.">
+    <title>Muhammad afifuddin firmansyah | Mobile & Backend Engineer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Background Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Apip<span class="highlight">Udin firmansyah</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Muhammad Afifuddin firmansyah</h1>
+                <h2 class="role-text">I build <span class="typing-text"></span></h2>
+                <p class="summary">
+                    Versatile Developer building modern mobile apps with <strong>Kotlin, Jetpack Compose &
+                        Multiplatform</strong>,
+                    and robust web solutions using <strong>Laravel & CodeIgniter</strong>.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#" class="btn btn-outline">Simpan <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="hero-blob"></div>
+                <img src="assets/images/general/profile.jpeg" alt="Profile" class="hero-img">
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Saya adalah siswa SMK Negeri 1 Sidayu, kelas X TKJ 1.
+Saya memiliki ketertarikan di bidang teknologi informasi, khususnya pemrograman dan pengembangan web.
+                    </p>
+                    <p>
+Saat ini saya sedang mempelajari HTML, CSS, serta dasar-dasar Python, dan terus berusaha mengembangkan kemampuan melalui latihan dan proyek sederhana. Saya senang belajar hal baru, terbiasa bekerja mandiri, dan memiliki semangat untuk berkembang di dunia IT.
+                    </p>
+                    <div class="tech-badges">
+                        <span class="badge"><i class="fab fa-android"></i> Jetpack Compose</span>
+                        <span class="badge"><i class="fas fa-mobile-alt"></i> KMP</span>
+                        <span class="badge"><i class="fab fa-laravel"></i> Laravel</span>
+                        <span class="badge"><i class="fab fa-php"></i> CodeIgniter</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+
+            <!-- Mobile Projects -->
+            <h3 class="subsection-title"><i class="fas fa-mobile-alt"></i> Mobile Development</h3>
+            <div class="projects-grid">
+    <!-- Project 1 -->
+<article class="project-card">
+    <div class="project-image">
+        <img src="assets/images/portfolio/mobile/tabungan.png" alt="Aplikasi Tabungan">
+        <div class="project-overlay">
+            <a href="#" class="btn-icon"><i class="fas fa-external-link-alt"></i></a>
+            <a href="#" class="btn-icon"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+    <div class="project-info">
+        <h3>Tabungan</h3>
+        <p>
+            Aplikasi web sederhana untuk mencatat tabungan, pemasukan, pengeluaran,
+            serta mengatur target dan anggaran keuangan.
+        </p>
+        <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+        </div>
+        <div class="project-links">
+            <a href="#" class="link-text">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+</article>
+
+<!-- Project 2 -->
+<article class="project-card">
+    <div class="project-image">
+        <img src="assets/images/portfolio/mobile/profil.png" alt="Website Profil">
+        <div class="project-overlay">
+            <a href="#" class="btn-icon"><i class="fas fa-external-link-alt"></i></a>
+            <a href="#" class="btn-icon"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+    <div class="project-info">
+        <h3>Website Profil Pribadi</h3>
+        <p>
+            Website profil sederhana yang berisi data diri, pendidikan,
+            dan informasi singkat tentang saya sebagai siswa SMK.
+        </p>
+        <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+        </div>
+        <div class="project-links">
+            <a href="#" class="link-text">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+</article>
+
+<!-- Project 3 -->
+<article class="project-card">
+    <div class="project-image">
+        <img src="assets/images/portfolio/mobile/kalkulator.png" alt="Kalkulator">
+        <div class="project-overlay">
+            <a href="#" class="btn-icon"><i class="fas fa-external-link-alt"></i></a>
+            <a href="#" class="btn-icon"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+    <div class="project-info">
+        <h3>Kalkulator Sederhana</h3>
+        <p>
+            Aplikasi kalkulator berbasis web untuk melakukan
+            perhitungan dasar seperti tambah, kurang, kali, dan bagi.
+        </p>
+        <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+        </div>
+        <div class="project-links">
+            <a href="#" class="link-text">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+</article>
+
+<!-- Project 4 -->
+<article class="project-card">
+    <div class="project-image">
+        <img src="assets/images/portfolio/mobile/login.png" alt="Form Login">
+        <div class="project-overlay">
+            <a href="#" class="btn-icon"><i class="fas fa-external-link-alt"></i></a>
+            <a href="#" class="btn-icon"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+    <div class="project-info">
+        <h3>Form Login</h3>
+        <p>
+            Tampilan form login sebagai latihan antarmuka pengguna
+            dengan validasi input sederhana.
+        </p>
+        <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+        </div>
+        <div class="project-links">
+            <a href="#" class="link-text">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+</article>
+
+<!-- Project 5 -->
+<article class="project-card">
+    <div class="project-image">
+        <img src="assets/images/portfolio/mobile/python.png" alt="Python Dasar">
+        <div class="project-overlay">
+            <a href="#" class="btn-icon"><i class="fas fa-external-link-alt"></i></a>
+            <a href="#" class="btn-icon"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+    <div class="project-info">
+        <h3>Program Python Dasar</h3>
+        <p>
+            Kumpulan program Python sederhana untuk melatih logika,
+            input-output, dan perhitungan dasar.
+        </p>
+        <div class="tags">
+            <span>Python</span>
+        </div>
+        <div class="project-links">
+            <a href="#" class="link-text">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+</article>
+            </div>
+
+            <div class="project-spacer"></div>
+
+            <!-- Web Projects -->
+            <h3 class="subsection-title"><i class="fas fa-laptop-code"></i>Desktop & Web Development</h3>
+            <div class="projects-grid">
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/portfolio/web/desktop-intiabsensi.png" alt="Inti Absensi Desktop">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-icon"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="btn-icon"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Inti Absensi Desktop</h3>
+                        <p>A desktop-based employee attendance system leveraging facial recognition technology for
+                            secure and accurate time tracking at PT. Inti Sukses Sumatera.</p>
+                        <div class="tags">
+                            <span>Compose Multiplatform</span>
+                            <span>MySQL</span>
+                            <span>REST API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-text">View Details <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/portfolio/web/web-iss.png" alt="Web Admin ISS">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-icon"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="btn-icon"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Web Admin ISS Distribution System</h3>
+                        <p>A web admin system for managing distribution of goods at PT. Inti Sukses Sumatera.</p>
+                        <div class="tags">
+                            <span>CodeIgniter</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="link-text">View Details <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certificates-grid">
+                <div class="cert-card" onclick="openModal('assets/certificates/cert1.png', 'Google Cloud Architect')">
+                    <img src="assets/certificates/cert1.png" alt="Google Cloud Certificate">
+                    <div class="cert-info">
+                        <h3>Desain poster</h3>
+                        <p>Canva • 2024</p>
+                    </div>
+                </div>
+                <!-- Duplicate for demo -->
+                <div class="cert-card" onclick="openModal('assets/certificates/cert1.png', 'Android Expert')">
+                    <img src="assets/certificates/cert1.png" alt="Android Expert Certificate">
+                    <div class="cert-info">
+                        <h3>Desain poster</h3>
+                        <p>canva • 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical <span class="highlight">Skills</span></h2>
+            <div class="skills-container">
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-mobile-alt"></i> Mobile Development</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Kotlin & XML</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Jetpack Compose</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Compose Multiplatform</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Web & Backend</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Laravel</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>CodeIgniter</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>MySQL / REST APIs</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Pemula Web Development</h3>
+                        <h4 class="company">OTODIDAK</h4>
+                        <p>
+Mulai belajar HTML dasar, memahami struktur halaman web dan elemen-elemen dasar. <strong>Kotlin</strong>,
+                            <strong>CodeIgniter</strong>, and <strong>Laravel</strong>.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023 - 2024</div>
+                    <div class="timeline-content">
+                        <h3>HTML & CSS Editor</h3>
+                        <h4 class="company">OTODIDAK </h4>
+                        <p>Mampu mengedit dan menyesuaikan tampilan website menggunakan HTML dan CSS, termasuk layout sederhana dan styling.
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025</div>
+                    <div class="timeline-content">
+                        <h3>Python Learner</h3>
+                        <h4 class="company">OTODIDAK</h4>
+                        <p>Mulai belajar Python, memahami dasar pemrograman seperti variabel, percabangan, perulangan, dan logika program.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <div class="contact-grid">
+                <div class="contact-card email-card" onclick="copyToClipboard('dicky.kw.547@gmail.com')">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email Me</h3>
+                    <p id="email-text">dicky.kw.547@gmail.com</p>
+                    <span class="copy-hint">Click to copy</span>
+                </div>
+                <a href="https://wa.me/qr/THUKFTFFAFXHG1" target="_blank" class="contact-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>WhatsApp</h3>
+                    <p>Chat with me</p>
+                </a>
+                <a href="https://github.com/ujungpangkah09-jpg" target="_blank" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p>Check my code</p>
+                </a>
+                <a href="https://linkedin.com/in/rizkikurniaa" target="_blank" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p>Connect professionally</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Apipp. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Modal for Project Details -->
+    <div id="projectModal" class="modal">
+        <span class="close-modal project-close">&times;</span>
+        <div class="modal-content project-modal-content">
+            <img id="projectModalImage" class="project-modal-img" src="" alt="">
+            <div class="project-modal-info">
+                <h3 id="projectModalTitle"></h3>
+                <p id="projectModalDescription"></p>
+                <div id="projectModalTags" class="tags"></div>
+                <div id="projectModalLinks" class="project-links"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Certificates -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
